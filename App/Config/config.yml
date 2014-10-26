@@ -1,0 +1,14 @@
+all:
+  container:
+    console.lock:
+      class: \App\Lock
+    console.queue:
+      class: \App\Queue
+    console.processor:
+      class: \App\Processor
+prod:
+  container:
+    console.lock:
+      class: \Console\Lock\File
+      parameters:
+        filename: "/tmp/command.lock"

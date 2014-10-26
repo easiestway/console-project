@@ -1,0 +1,8 @@
+{
+    "require": {
+        "symfony/class-loader": "dev-master",
+        "symfony/options-resolver": "dev-master",
+        "symfony/console": "dev-master",
+        "symfony/yaml": "dev-master"
+    }
+}
